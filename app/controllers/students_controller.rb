@@ -1,6 +1,6 @@
 class StudentsController < ApplicationController
   
-  def index
+  def show
     render index
   end
   
