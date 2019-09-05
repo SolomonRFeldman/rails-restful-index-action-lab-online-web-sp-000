@@ -1,5 +1,5 @@
 <%= content_tag(:ul) do %>
-  <% @students.each do |student %>
+  <% Student.all.each do |student %>
     <%= content_tag(:li, student, student.to_s) %>
   <% end %>
 <% end %>
